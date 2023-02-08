@@ -1,0 +1,782 @@
+{
+  "1": {
+    "variable_ID": 2,
+    "lhs": " V_2",
+    "network": "root",
+    "rhs": " O_11 D_0 V_1 D_7 V_1 D_1"
+  },
+  "2": {
+    "variable_ID": 3,
+    "lhs": " V_3",
+    "network": "root",
+    "rhs": " O_11 D_0 V_1 D_7 V_1 D_1"
+  },
+  "3": {
+    "variable_ID": 4,
+    "lhs": " V_4",
+    "network": "root",
+    "rhs": " O_11 D_0 V_1 D_7 V_1 D_1"
+  },
+  "4": {
+    "variable_ID": 7,
+    "lhs": " V_7",
+    "network": "root",
+    "rhs": " O_11 D_0 V_6 D_7 V_1 D_1"
+  },
+  "5": {
+    "variable_ID": 8,
+    "lhs": " V_8",
+    "network": "root",
+    "rhs": " O_11 D_0 V_6 D_7 V_1 D_1"
+  },
+  "6": {
+    "variable_ID": 15,
+    "lhs": " V_15",
+    "network": "physical",
+    "rhs": " F_11 D_0 O_7 D_0 V_11 D_7 V_13 D_1 D_1"
+  },
+  "7": {
+    "variable_ID": 16,
+    "lhs": " V_16",
+    "network": "physical",
+    "rhs": " O_7 D_0 V_11 D_7 V_12 D_1"
+  },
+  "9": {
+    "variable_ID": 18,
+    "lhs": " V_18",
+    "network": "physical",
+    "rhs": " V_11 O_1 V_15 O_4 V_13"
+  },
+  "10": {
+    "variable_ID": 19,
+    "lhs": " V_19",
+    "network": "physical",
+    "rhs": " V_11 O_1 V_16 O_4 V_12"
+  },
+  "11": {
+    "variable_ID": 20,
+    "lhs": " V_20",
+    "network": "physical",
+    "rhs": " V_11 O_0 V_15 O_4 V_13 O_1 V_16 O_4 V_12"
+  },
+  "12": {
+    "variable_ID": 21,
+    "lhs": " V_21",
+    "network": "physical",
+    "rhs": " O_7 D_0 V_9 D_7 V_6 D_1"
+  },
+  "13": {
+    "variable_ID": 22,
+    "lhs": " V_22",
+    "network": "physical",
+    "rhs": " O_7 D_0 V_10 D_7 V_6 D_1"
+  },
+  "14": {
+    "variable_ID": 24,
+    "lhs": " V_24",
+    "network": "physical",
+    "rhs": " O_7 D_0 V_23 D_7 V_6 D_1"
+  },
+  "15": {
+    "variable_ID": 25,
+    "lhs": " V_25",
+    "network": "physical",
+    "rhs": " F_20 D_0 V_21 D_7 V_22 D_7 V_24 D_1"
+  },
+  "16": {
+    "variable_ID": 27,
+    "lhs": " V_27",
+    "network": "physical",
+    "rhs": " O_11 D_0 V_12 D_7 V_1 D_1"
+  },
+  "17": {
+    "variable_ID": 28,
+    "lhs": " V_28",
+    "network": "physical",
+    "rhs": " V_26 O_4 V_27"
+  },
+  "18": {
+    "variable_ID": 30,
+    "lhs": " V_30",
+    "network": "material",
+    "rhs": " O_7 D_0 V_18 D_7 V_16 D_1"
+  },
+  "19": {
+    "variable_ID": 31,
+    "lhs": " V_31",
+    "network": "material",
+    "rhs": " O_7 D_0 V_11 D_7 V_16 D_1"
+  },
+  "22": {
+    "variable_ID": 34,
+    "lhs": " V_34",
+    "network": "material",
+    "rhs": " F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_16 D_1 O_4 V_21"
+  },
+  "23": {
+    "variable_ID": 35,
+    "lhs": " V_35",
+    "network": "material",
+    "rhs": " F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_16 D_1 O_4 V_22"
+  },
+  "24": {
+    "variable_ID": 36,
+    "lhs": " V_36",
+    "network": "material",
+    "rhs": " F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_16 D_1 O_4 V_24"
+  },
+  "25": {
+    "variable_ID": 37,
+    "lhs": " V_37",
+    "network": "material",
+    "rhs": " F_20 D_0 V_34 D_7 V_35 D_7 V_36 D_1"
+  },
+  "32": {
+    "variable_ID": 45,
+    "lhs": " V_45",
+    "network": "physical",
+    "rhs": " O_7 D_0 V_11 D_7 V_42 D_1"
+  },
+  "37": {
+    "variable_ID": 50,
+    "lhs": " V_50",
+    "network": "material",
+    "rhs": " D_0 V_29 O_5 I_3 O_14 I_5 O_5 F_15 D_0 V_45 D_1 D_1 O_4 F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_15 D_1 O_4 V_21"
+  },
+  "38": {
+    "variable_ID": 51,
+    "lhs": " V_51",
+    "network": "material",
+    "rhs": " D_0 V_29 O_5 I_3 O_14 I_5 O_5 F_15 D_0 V_45 D_1 D_1 O_4 F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_15 D_1 O_4 V_22"
+  },
+  "39": {
+    "variable_ID": 52,
+    "lhs": " V_52",
+    "network": "material",
+    "rhs": " D_0 V_29 O_5 I_3 O_14 I_5 O_5 F_15 D_0 V_45 D_1 D_1 O_4 F_15 D_0 V_13 D_1 O_4 O_7 D_0 V_11 D_7 V_15 D_1 O_4 V_24"
+  },
+  "40": {
+    "variable_ID": 53,
+    "lhs": " V_53",
+    "network": "material",
+    "rhs": " F_20 D_0 V_50 D_7 V_51 D_7 V_52 D_1"
+  },
+  "41": {
+    "variable_ID": 54,
+    "lhs": " V_54",
+    "network": "material",
+    "rhs": " F_15 D_0 V_45 D_1 O_4 D_0 V_21 O_3 D_0 F_15 D_0 V_13 D_1 O_3 O_7 D_0 V_11 D_7 V_45 D_1 D_1 D_1"
+  },
+  "42": {
+    "variable_ID": 55,
+    "lhs": " V_55",
+    "network": "material",
+    "rhs": " F_15 D_0 V_45 D_1 O_4 D_0 V_22 O_3 D_0 F_15 D_0 V_13 D_1 O_3 O_7 D_0 V_11 D_7 V_45 D_1 D_1 D_1"
+  },
+  "43": {
+    "variable_ID": 56,
+    "lhs": " V_56",
+    "network": "material",
+    "rhs": " F_15 D_0 V_45 D_1 O_4 D_0 V_24 O_3 D_0 F_15 D_0 V_13 D_1 O_3 O_7 D_0 V_11 D_7 V_45 D_1 D_1 D_1"
+  },
+  "44": {
+    "variable_ID": 57,
+    "lhs": " V_57",
+    "network": "material",
+    "rhs": " F_20 D_0 V_54 D_7 V_55 D_7 V_56 D_1"
+  },
+  "45": {
+    "variable_ID": 58,
+    "lhs": " V_58",
+    "network": "material",
+    "rhs": " V_18 O_3 F_15 D_0 V_42 D_1"
+  },
+  "46": {
+    "variable_ID": 65,
+    "lhs": " V_65",
+    "network": "macroscopic",
+    "rhs": " F_16 D_0 V_5  O_5  I_1 O_5  V_15 D_1"
+  },
+  "47": {
+    "variable_ID": 69,
+    "lhs": " V_69",
+    "network": "macroscopic",
+    "rhs": " V_29 O_5 I_3 O_14 I_5 O_5 V_42"
+  },
+  "49": {
+    "variable_ID": 71,
+    "lhs": " V_71",
+    "network": "material",
+    "rhs": " V_69 O_4 F_15 D_0 V_13 D_1"
+  },
+  "51": {
+    "variable_ID": 73,
+    "lhs": " V_73",
+    "network": "macroscopic",
+    "rhs": " V_5 O_3 V_59"
+  },
+  "55": {
+    "variable_ID": 77,
+    "lhs": " V_77",
+    "network": "macroscopic",
+    "rhs": " V_62  O_5  I_1 O_5  V_16"
+  },
+  "64": {
+    "variable_ID": 87,
+    "lhs": " V_87",
+    "network": "reactions",
+    "rhs": " O_11 D_0 V_62  O_5  I_1 O_5  V_28 O_4 V_77 D_7 V_1 D_1"
+  },
+  "65": {
+    "variable_ID": 89,
+    "lhs": " V_89",
+    "network": "reactions",
+    "rhs": " V_88 O_3 F_0 D_0 F_11 D_0 V_87 D_1 O_4 F_15 D_0 V_28  O_5  I_1 O_5  V_62 O_4 V_77 D_1 D_1"
+  },
+  "69": {
+    "variable_ID": 93,
+    "lhs": " V_93",
+    "network": "macroscopic",
+    "rhs": " V_61  O_5  I_3 O_5  D_0 D_0 V_60 O_4 V_77 O_4 F_15 D_0 V_77 D_1 D_1  O_5  I_4 O_5  V_86 D_1"
+  },
+  "71": {
+    "variable_ID": 95,
+    "lhs": " V_95",
+    "network": "macroscopic",
+    "rhs": " V_10 O_4 V_23"
+  },
+  "72": {
+    "variable_ID": 96,
+    "lhs": " V_96",
+    "network": "macroscopic",
+    "rhs": " V_9 O_4 V_23"
+  },
+  "73": {
+    "variable_ID": 97,
+    "lhs": " V_97",
+    "network": "macroscopic",
+    "rhs": " V_9 O_4 V_10"
+  },
+  "74": {
+    "variable_ID": 98,
+    "lhs": " V_98",
+    "network": "macroscopic",
+    "rhs": " F_15 D_0 V_71 D_1 O_4 V_50 O_4 V_95 O_4 V_127  O_5  I_1 O_5  V_15"
+  },
+  "80": {
+    "variable_ID": 104,
+    "lhs": " V_104",
+    "network": "macroscopic",
+    "rhs": " V_95 O_3 F_11 D_0 V_54 D_1 O_4 V_128  O_5  I_5 O_5  V_45"
+  },
+  "81": {
+    "variable_ID": 105,
+    "lhs": " V_105",
+    "network": "macroscopic",
+    "rhs": " V_73  O_5  I_6 O_5  V_104"
+  },
+  "82": {
+    "variable_ID": 106,
+    "lhs": " V_106",
+    "network": "macroscopic",
+    "rhs": " D_0 V_73  O_5  I_5 O_5  V_58 D_1 O_5 I_3 O_14 I_6 O_5 V_104"
+  },
+  "83": {
+    "variable_ID": 107,
+    "lhs": " V_107",
+    "network": "macroscopic",
+    "rhs": " V_5  O_5  I_2 O_5  V_106"
+  },
+  "84": {
+    "variable_ID": 108,
+    "lhs": " V_108",
+    "network": "macroscopic",
+    "rhs": " F_15 D_0 V_13 D_1 O_3 V_42"
+  },
+  "85": {
+    "variable_ID": 109,
+    "lhs": " V_109",
+    "network": "macroscopic",
+    "rhs": " D_0 V_4 O_4 D_0 V_73 O_1 V_65 O_3 F_10 D_0 V_73 D_1 D_1 D_1  O_5  I_5 O_5  V_108"
+  },
+  "86": {
+    "variable_ID": 110,
+    "lhs": " V_110",
+    "network": "macroscopic",
+    "rhs": " V_98 O_3 V_109"
+  },
+  "87": {
+    "variable_ID": 111,
+    "lhs": " V_111",
+    "network": "macroscopic",
+    "rhs": " V_73  O_5  I_6 O_5  V_110"
+  },
+  "90": {
+    "variable_ID": 114,
+    "lhs": " V_114",
+    "network": "reactions",
+    "rhs": " V_108  O_5  I_5 O_5  V_64"
+  },
+  "91": {
+    "variable_ID": 115,
+    "lhs": " V_115",
+    "network": "reactions",
+    "rhs": " O_11 D_0 V_114 D_7 V_1 D_1"
+  },
+  "92": {
+    "variable_ID": 116,
+    "lhs": " V_116",
+    "network": "reactions",
+    "rhs": " O_10 D_0 V_114 O_4 F_15 D_0 V_115 D_1 D_7 V_86 D_1"
+  },
+  "93": {
+    "variable_ID": 117,
+    "lhs": " V_117",
+    "network": "macroscopic",
+    "rhs": " V_89 O_4 V_63  O_5  I_8 O_5  V_116"
+  },
+  "94": {
+    "variable_ID": 118,
+    "lhs": " V_118",
+    "network": "macroscopic",
+    "rhs": " V_13 O_3 D_0 V_93  O_5  I_7 O_5  V_117 D_1"
+  },
+  "95": {
+    "variable_ID": 119,
+    "lhs": " V_119",
+    "network": "macroscopic",
+    "rhs": " V_111 O_0 V_105 O_0 V_118"
+  },
+  "96": {
+    "variable_ID": 120,
+    "lhs": " V_120",
+    "network": "macroscopic",
+    "rhs": " D_0 V_73  O_5  I_5 O_5  V_58 D_1 O_5 I_3 O_14 I_6 O_5 V_110"
+  },
+  "97": {
+    "variable_ID": 121,
+    "lhs": " V_121",
+    "network": "macroscopic",
+    "rhs": " V_5  O_5  I_2 O_5  V_120"
+  },
+  "98": {
+    "variable_ID": 122,
+    "lhs": " V_122",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_120 D_7 V_1 D_1"
+  },
+  "99": {
+    "variable_ID": 123,
+    "lhs": " V_123",
+    "network": "macroscopic",
+    "rhs": " V_5  O_5  I_2 O_5  V_122"
+  },
+  "100": {
+    "variable_ID": 124,
+    "lhs": " V_124",
+    "network": "macroscopic",
+    "rhs": " V_95 O_4 V_34 O_4 V_127  O_5  I_1 O_5  V_16"
+  },
+  "101": {
+    "variable_ID": 125,
+    "lhs": " V_125",
+    "network": "macroscopic",
+    "rhs": " V_5  O_5  I_2 O_5  V_124"
+  },
+  "102": {
+    "variable_ID": 126,
+    "lhs": " V_126",
+    "network": "macroscopic",
+    "rhs": " V_121 O_0 V_107 O_0 V_125 O_0 V_123"
+  },
+  "103": {
+    "variable_ID": 138,
+    "lhs": " V_138",
+    "network": "control",
+    "rhs": " O_11 D_0 V_137 D_7 V_1 D_1"
+  },
+  "104": {
+    "variable_ID": 140,
+    "lhs": " V_140",
+    "network": "control",
+    "rhs": " V_139 O_1 V_135"
+  },
+  "106": {
+    "variable_ID": 144,
+    "lhs": " V_144",
+    "network": "control",
+    "rhs": " V_142  O_5  I_1 O_5  V_137 O_0 V_143  O_5  I_2 O_5  V_140"
+  },
+  "112": {
+    "variable_ID": 137,
+    "lhs": " V_137",
+    "network": "control",
+    "rhs": " O_9 D_0 V_129  O_5  I_9 O_5  V_144 D_8 V_6 O_14 D_2 V_7 D_7 V_8 D_3 D_1"
+  },
+  "113": {
+    "variable_ID": 16,
+    "lhs": " V_16",
+    "network": "physical",
+    "rhs": " O_11 D_0 V_16 D_7 V_1 D_1"
+  },
+  "114": {
+    "variable_ID": 45,
+    "lhs": " V_45",
+    "network": "physical",
+    "rhs": " O_11 D_0 V_45 D_7 V_1 D_1"
+  },
+  "115": {
+    "variable_ID": 15,
+    "lhs": " V_15",
+    "network": "physical",
+    "rhs": " O_11 D_0 V_15 D_7 V_1 D_1"
+  },
+  "116": {
+    "variable_ID": 42,
+    "lhs": " V_42",
+    "network": "macroscopic",
+    "rhs": " O_9 D_0 V_119 D_8 V_6 O_14 D_2 V_7 D_7 V_8 D_3 D_1 O_0 V_150"
+  },
+  "117": {
+    "variable_ID": 145,
+    "lhs": " V_145",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_16 D_7 V_1 D_1"
+  },
+  "120": {
+    "variable_ID": 148,
+    "lhs": " V_148",
+    "network": "material",
+    "rhs": " V_30 O_4 F_15 D_0 V_69 D_1"
+  },
+  "121": {
+    "variable_ID": 149,
+    "lhs": " V_149",
+    "network": "material",
+    "rhs": " V_31 O_4 F_15 D_0 V_69 D_1"
+  },
+  "122": {
+    "variable_ID": 18,
+    "lhs": " V_18",
+    "network": "macroscopic",
+    "rhs": " V_69 O_4 O_9 D_0 V_148 D_8 V_16 O_14 D_2 V_145 D_7 V_16 D_3 D_1"
+  },
+  "123": {
+    "variable_ID": 18,
+    "lhs": " V_18",
+    "network": "macroscopic",
+    "rhs": " O_9 D_0 V_126 D_8 V_6 O_14 D_2 V_7 D_7 V_8 D_3 D_1 O_0 V_151"
+  },
+  "124": {
+    "variable_ID": 150,
+    "lhs": " V_150",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_42 D_7 V_1 D_1"
+  },
+  "125": {
+    "variable_ID": 151,
+    "lhs": " V_151",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_18 D_7 V_1 D_1"
+  },
+  "126": {
+    "variable_ID": 152,
+    "lhs": " V_152",
+    "network": "macroscopic",
+    "rhs": " F_19 D_0 V_15 D_7 V_16 D_7 V_45 D_7 V_108 D_1"
+  },
+  "127": {
+    "variable_ID": 108,
+    "lhs": " V_108",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_108 D_7 V_1 D_1"
+  },
+  "128": {
+    "variable_ID": 126,
+    "lhs": " V_126",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_126 D_7 V_2 D_1"
+  },
+  "129": {
+    "variable_ID": 119,
+    "lhs": " V_119",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_119 D_7 V_2 D_1"
+  },
+  "130": {
+    "variable_ID": 153,
+    "lhs": " V_153",
+    "network": "macroscopic",
+    "rhs": " F_19 D_0 V_42 D_7 V_18 D_1"
+  },
+  "131": {
+    "variable_ID": 34,
+    "lhs": " V_34",
+    "network": "material",
+    "rhs": " O_11 D_0 V_34 D_7 V_1 D_1"
+  },
+  "132": {
+    "variable_ID": 35,
+    "lhs": " V_35",
+    "network": "material",
+    "rhs": " O_11 D_0 V_35 D_7 V_1 D_1"
+  },
+  "133": {
+    "variable_ID": 36,
+    "lhs": " V_36",
+    "network": "material",
+    "rhs": " O_11 D_0 V_36 D_7 V_1 D_1"
+  },
+  "134": {
+    "variable_ID": 50,
+    "lhs": " V_50",
+    "network": "material",
+    "rhs": " O_11 D_0 V_50 D_7 V_1 D_1"
+  },
+  "135": {
+    "variable_ID": 51,
+    "lhs": " V_51",
+    "network": "material",
+    "rhs": " O_11 D_0 V_51 D_7 V_1 D_1"
+  },
+  "136": {
+    "variable_ID": 52,
+    "lhs": " V_52",
+    "network": "material",
+    "rhs": " O_11 D_0 V_52 O_4 V_1 D_7- D_1"
+  },
+  "137": {
+    "variable_ID": 54,
+    "lhs": " V_54",
+    "network": "material",
+    "rhs": " O_11 D_0 V_54 D_7 V_1 D_1"
+  },
+  "138": {
+    "variable_ID": 55,
+    "lhs": " V_55",
+    "network": "material",
+    "rhs": " O_11 D_0 V_55 D_7 V_1 D_1"
+  },
+  "139": {
+    "variable_ID": 58,
+    "lhs": " V_58",
+    "network": "material",
+    "rhs": " O_11 D_0 V_58 D_7 V_1 D_1"
+  },
+  "140": {
+    "variable_ID": 148,
+    "lhs": " V_148",
+    "network": "material",
+    "rhs": " O_11 D_0 V_148 D_7 V_1 D_1"
+  },
+  "141": {
+    "variable_ID": 149,
+    "lhs": " V_149",
+    "network": "material",
+    "rhs": " O_11 D_0 V_149 D_7 V_1 D_1"
+  },
+  "142": {
+    "variable_ID": 29,
+    "lhs": " V_29",
+    "network": "material",
+    "rhs": " O_11 D_0 V_29 D_7 V_1 D_1"
+  },
+  "143": {
+    "variable_ID": 154,
+    "lhs": " V_154",
+    "network": "material",
+    "rhs": " F_19 D_0 V_37 D_7 V_53 D_7 V_57 D_7 V_58 D_7 V_148 D_7 V_149 D_7 V_29 D_7 V_71 D_1"
+  },
+  "144": {
+    "variable_ID": 133,
+    "lhs": " V_133",
+    "network": "control",
+    "rhs": " O_11 D_0 V_133 D_7 V_1 D_1"
+  },
+  "145": {
+    "variable_ID": 134,
+    "lhs": " V_134",
+    "network": "control",
+    "rhs": " O_11 D_0 V_134 D_7 V_1 D_1"
+  },
+  "146": {
+    "variable_ID": 135,
+    "lhs": " V_135",
+    "network": "control",
+    "rhs": " O_11 D_0 V_135 D_7 V_1 D_1"
+  },
+  "147": {
+    "variable_ID": 136,
+    "lhs": " V_136",
+    "network": "control",
+    "rhs": " O_11 D_0 V_136 D_7 V_1 D_1"
+  },
+  "148": {
+    "variable_ID": 142,
+    "lhs": " V_142",
+    "network": "control",
+    "rhs": " O_11 D_0 V_142 D_7 V_1 D_1"
+  },
+  "149": {
+    "variable_ID": 143,
+    "lhs": " V_143",
+    "network": "control",
+    "rhs": " O_11 D_0 V_143 D_7 V_1 D_1"
+  },
+  "150": {
+    "variable_ID": 155,
+    "lhs": " V_155",
+    "network": "control",
+    "rhs": " V_133  O_5  I_1 O_5  V_137 O_0 V_136 O_4 V_140"
+  },
+  "153": {
+    "variable_ID": 155,
+    "lhs": " V_155",
+    "network": "control",
+    "rhs": " V_136 O_4 V_140"
+  },
+  "154": {
+    "variable_ID": 71,
+    "lhs": " V_71",
+    "network": "material",
+    "rhs": " O_11 D_0 V_71 D_7 V_1 D_1"
+  },
+  "155": {
+    "variable_ID": 158,
+    "lhs": " V_158",
+    "network": "control",
+    "rhs": " V_3 O_4 V_155"
+  },
+  "161": {
+    "variable_ID": 165,
+    "lhs": " V_165",
+    "network": "macroscopic",
+    "rhs": " V_164 O_5 I_3 O_14 I_5 O_5 V_108"
+  },
+  "162": {
+    "variable_ID": 166,
+    "lhs": " V_166",
+    "network": "macroscopic",
+    "rhs": " F_15 D_0 V_165 D_1 O_3 V_108"
+  },
+  "171": {
+    "variable_ID": 175,
+    "lhs": " V_175",
+    "network": "material",
+    "rhs": " O_11 D_0 V_175 D_7 V_1 D_1"
+  },
+  "176": {
+    "variable_ID": 179,
+    "lhs": " V_179",
+    "network": "physical",
+    "rhs": " F_15 D_0 V_170 D_1 O_4 V_11"
+  },
+  "177": {
+    "variable_ID": 180,
+    "lhs": " V_180",
+    "network": "macroscopic",
+    "rhs": " O_8 D_0 V_170 D_7 V_6 D_1"
+  },
+  "178": {
+    "variable_ID": 181,
+    "lhs": " V_181",
+    "network": "material",
+    "rhs": " F_15 D_0 V_180 D_1 O_4 V_179"
+  },
+  "179": {
+    "variable_ID": 182,
+    "lhs": " V_182",
+    "network": "material",
+    "rhs": " F_15 D_0 V_181 D_1 O_4 V_175"
+  },
+  "180": {
+    "variable_ID": 181,
+    "lhs": " V_181",
+    "network": "material",
+    "rhs": " O_11 D_0 V_181 D_7 V_1 D_1"
+  },
+  "181": {
+    "variable_ID": 179,
+    "lhs": " V_179",
+    "network": "macroscopic",
+    "rhs": " F_15 D_0 V_182 D_1 O_4 V_180"
+  },
+  "182": {
+    "variable_ID": 183,
+    "lhs": " V_183",
+    "network": "macroscopic",
+    "rhs": " V_177 O_4 V_179"
+  },
+  "183": {
+    "variable_ID": 183,
+    "lhs": " V_183",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_183 D_7 V_2 D_1"
+  },
+  "185": {
+    "variable_ID": 180,
+    "lhs": " V_180",
+    "network": "macroscopic",
+    "rhs": " F_18 D_0 V_183 D_1"
+  },
+  "186": {
+    "variable_ID": 185,
+    "lhs": " V_185",
+    "network": "macroscopic",
+    "rhs": " V_184 O_4 V_180"
+  },
+  "187": {
+    "variable_ID": 186,
+    "lhs": " V_186",
+    "network": "material",
+    "rhs": " F_15 D_0 V_181 D_1"
+  },
+  "188": {
+    "variable_ID": 179,
+    "lhs": " V_179",
+    "network": "macroscopic",
+    "rhs": " V_181 O_4 V_180"
+  },
+  "189": {
+    "variable_ID": 180,
+    "lhs": " V_180",
+    "network": "macroscopic",
+    "rhs": " F_18 D_0 V_179 D_1"
+  },
+  "190": {
+    "variable_ID": 187,
+    "lhs": " V_187",
+    "network": "control",
+    "rhs": " V_180"
+  },
+  "191": {
+    "variable_ID": 188,
+    "lhs": " V_188",
+    "network": "control",
+    "rhs": " V_179"
+  },
+  "192": {
+    "variable_ID": 189,
+    "lhs": " V_189",
+    "network": "control",
+    "rhs": " V_175"
+  },
+  "193": {
+    "variable_ID": 190,
+    "lhs": " V_190",
+    "network": "control",
+    "rhs": " F_15 D_0 V_187 D_1 O_4 V_188"
+  },
+  "194": {
+    "variable_ID": 191,
+    "lhs": " V_191",
+    "network": "control",
+    "rhs": " F_19 D_0 V_187 D_7 V_188 D_7 V_190 D_7 V_189 D_1"
+  },
+  "195": {
+    "variable_ID": 179,
+    "lhs": " V_179",
+    "network": "macroscopic",
+    "rhs": " O_11 D_0 V_179 D_7 V_1 D_1"
+  }
+}

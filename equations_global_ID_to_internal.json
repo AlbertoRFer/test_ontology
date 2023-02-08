@@ -1,0 +1,652 @@
+{
+  "1": {
+    "lhs": "zero",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "2": {
+    "lhs": "one",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "3": {
+    "lhs": "onehalf",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "4": {
+    "lhs": "to",
+    "network": "root",
+    "rhs": " Instantiate ( t , value )"
+  },
+  "5": {
+    "lhs": "te",
+    "network": "root",
+    "rhs": " Instantiate ( t , value )"
+  },
+  "6": {
+    "lhs": "p",
+    "network": "physical",
+    "rhs": " neg ( ParDiff ( U , V ) )"
+  },
+  "7": {
+    "lhs": "T",
+    "network": "physical",
+    "rhs": " ParDiff ( U , S )"
+  },
+  "9": {
+    "lhs": "H",
+    "network": "physical",
+    "rhs": " U - p . V"
+  },
+  "10": {
+    "lhs": "A",
+    "network": "physical",
+    "rhs": " U - T . S"
+  },
+  "11": {
+    "lhs": "G",
+    "network": "physical",
+    "rhs": " U + p . V - T . S"
+  },
+  "12": {
+    "lhs": "v_x",
+    "network": "physical",
+    "rhs": " ParDiff ( r_x , t )"
+  },
+  "13": {
+    "lhs": "v_y",
+    "network": "physical",
+    "rhs": " ParDiff ( r_y , t )"
+  },
+  "14": {
+    "lhs": "v_z",
+    "network": "physical",
+    "rhs": " ParDiff ( r_z , t )"
+  },
+  "15": {
+    "lhs": "v",
+    "network": "physical",
+    "rhs": " Stack ( v_x , v_y , v_z )"
+  },
+  "16": {
+    "lhs": "Boltzmann",
+    "network": "physical",
+    "rhs": " Instantiate ( S , value )"
+  },
+  "17": {
+    "lhs": "GasConstant",
+    "network": "physical",
+    "rhs": " Avogadro . Boltzmann"
+  },
+  "18": {
+    "lhs": "Cp",
+    "network": "material",
+    "rhs": " ParDiff ( H , T )"
+  },
+  "19": {
+    "lhs": "Cv",
+    "network": "material",
+    "rhs": " ParDiff ( U , T )"
+  },
+  "22": {
+    "lhs": "kq_x",
+    "network": "material",
+    "rhs": " inv ( V ) . ParDiff ( U , T ) . v_x"
+  },
+  "23": {
+    "lhs": "kq_y",
+    "network": "material",
+    "rhs": " inv ( V ) . ParDiff ( U , T ) . v_y"
+  },
+  "24": {
+    "lhs": "kq_z",
+    "network": "material",
+    "rhs": " inv ( V ) . ParDiff ( U , T ) . v_z"
+  },
+  "25": {
+    "lhs": "kq",
+    "network": "material",
+    "rhs": " Stack ( kq_x , kq_y , kq_z )"
+  },
+  "32": {
+    "lhs": "chem_pot",
+    "network": "physical",
+    "rhs": " ParDiff ( U , n )"
+  },
+  "37": {
+    "lhs": "kc_x",
+    "network": "material",
+    "rhs": " ( Mm | S in N & S | inv ( chem_pot ) ) . inv ( V ) . ParDiff ( U , p ) . v_x"
+  },
+  "38": {
+    "lhs": "kc_y",
+    "network": "material",
+    "rhs": " ( Mm | S in N & S | inv ( chem_pot ) ) . inv ( V ) . ParDiff ( U , p ) . v_y"
+  },
+  "39": {
+    "lhs": "kc_z",
+    "network": "material",
+    "rhs": " ( Mm | S in N & S | inv ( chem_pot ) ) . inv ( V ) . ParDiff ( U , p ) . v_z"
+  },
+  "40": {
+    "lhs": "kc",
+    "network": "material",
+    "rhs": " Stack ( kc_x , kc_y , kc_z )"
+  },
+  "41": {
+    "lhs": "kd_x",
+    "network": "material",
+    "rhs": " inv ( chem_pot ) . ( v_x : ( inv ( V ) : ParDiff ( U , chem_pot ) ) )"
+  },
+  "42": {
+    "lhs": "kd_y",
+    "network": "material",
+    "rhs": " inv ( chem_pot ) . ( v_y : ( inv ( V ) : ParDiff ( U , chem_pot ) ) )"
+  },
+  "43": {
+    "lhs": "kd_z",
+    "network": "material",
+    "rhs": " inv ( chem_pot ) . ( v_z : ( inv ( V ) : ParDiff ( U , chem_pot ) ) )"
+  },
+  "44": {
+    "lhs": "kd",
+    "network": "material",
+    "rhs": " Stack ( kd_x , kd_y , kd_z )"
+  },
+  "45": {
+    "lhs": "h",
+    "network": "material",
+    "rhs": " H : inv ( n )"
+  },
+  "46": {
+    "lhs": "d",
+    "network": "macroscopic",
+    "rhs": " sign ( F | N | p )"
+  },
+  "47": {
+    "lhs": "m",
+    "network": "macroscopic",
+    "rhs": " Mm | S in N & S | n"
+  },
+  "49": {
+    "lhs": "density",
+    "network": "material",
+    "rhs": " m . inv ( V )"
+  },
+  "51": {
+    "lhs": "F_NS_AS",
+    "network": "macroscopic",
+    "rhs": " F : P_NS_AS"
+  },
+  "55": {
+    "lhs": "T_NK",
+    "network": "macroscopic",
+    "rhs": " P_N_NK | N | T"
+  },
+  "64": {
+    "lhs": "Ea",
+    "network": "reactions",
+    "rhs": " Instantiate ( P_N_NK | N | GasConstant . T_NK , value )"
+  },
+  "65": {
+    "lhs": "K_NK",
+    "network": "reactions",
+    "rhs": " Ko : exp ( neg ( Ea ) . inv ( GasConstant | N | P_N_NK . T_NK ) )"
+  },
+  "69": {
+    "lhs": "N_NS_NK",
+    "network": "macroscopic",
+    "rhs": " P_S_NS | S | ( ( P_K_NK . T_NK . inv ( T_NK ) ) | K | N )"
+  },
+  "71": {
+    "lhs": "Ayz",
+    "network": "macroscopic",
+    "rhs": " r_y . r_z"
+  },
+  "72": {
+    "lhs": "Axz",
+    "network": "macroscopic",
+    "rhs": " r_x . r_z"
+  },
+  "73": {
+    "lhs": "Axy",
+    "network": "macroscopic",
+    "rhs": " r_x . r_y"
+  },
+  "74": {
+    "lhs": "fV",
+    "network": "macroscopic",
+    "rhs": " inv ( density ) . kc_x . Ayz . D | N | p"
+  },
+  "80": {
+    "lhs": "fnd_AS",
+    "network": "macroscopic",
+    "rhs": " Ayz : neg ( kd_x ) . D_NS_AS | N & S | chem_pot"
+  },
+  "81": {
+    "lhs": "fnd",
+    "network": "macroscopic",
+    "rhs": " F_NS_AS | A & S | fnd_AS"
+  },
+  "82": {
+    "lhs": "fHd_A",
+    "network": "macroscopic",
+    "rhs": " ( F_NS_AS | N & S | h ) | S in A & S | fnd_AS"
+  },
+  "83": {
+    "lhs": "fHd",
+    "network": "macroscopic",
+    "rhs": " F | A | fHd_A"
+  },
+  "84": {
+    "lhs": "c",
+    "network": "macroscopic",
+    "rhs": " inv ( V ) : n"
+  },
+  "85": {
+    "lhs": "c_AS",
+    "network": "macroscopic",
+    "rhs": " ( onehalf . ( F_NS_AS - d : abs ( F_NS_AS ) ) ) | N & S | c"
+  },
+  "86": {
+    "lhs": "fnc_AS",
+    "network": "macroscopic",
+    "rhs": " fV : c_AS"
+  },
+  "87": {
+    "lhs": "fnc",
+    "network": "macroscopic",
+    "rhs": " F_NS_AS | A & S | fnc_AS"
+  },
+  "90": {
+    "lhs": "c_KS",
+    "network": "reactions",
+    "rhs": " c | N & S | P_NS_KS"
+  },
+  "91": {
+    "lhs": "co_KS",
+    "network": "reactions",
+    "rhs": " Instantiate ( c_KS , value )"
+  },
+  "92": {
+    "lhs": "phi_KS",
+    "network": "reactions",
+    "rhs": " Product ( c_KS . inv ( co_KS ) , N )"
+  },
+  "93": {
+    "lhs": "xi",
+    "network": "macroscopic",
+    "rhs": " K_NK . P_NK_KS | K & S | phi_KS"
+  },
+  "94": {
+    "lhs": "pn",
+    "network": "macroscopic",
+    "rhs": " V : ( N_NS_NK | N & K | xi )"
+  },
+  "95": {
+    "lhs": "dndt",
+    "network": "macroscopic",
+    "rhs": " fnc + fnd + pn"
+  },
+  "96": {
+    "lhs": "fHc_A",
+    "network": "macroscopic",
+    "rhs": " ( F_NS_AS | N & S | h ) | S in A & S | fnc_AS"
+  },
+  "97": {
+    "lhs": "fHc",
+    "network": "macroscopic",
+    "rhs": " F | A | fHc_A"
+  },
+  "98": {
+    "lhs": "fw_A",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( fHc_A , value )"
+  },
+  "99": {
+    "lhs": "fw",
+    "network": "macroscopic",
+    "rhs": " F | A | fw_A"
+  },
+  "100": {
+    "lhs": "fq_A_x",
+    "network": "macroscopic",
+    "rhs": " Ayz . kq_x . D | N | T"
+  },
+  "101": {
+    "lhs": "fq",
+    "network": "macroscopic",
+    "rhs": " F | A | fq_A_x"
+  },
+  "102": {
+    "lhs": "dHdt",
+    "network": "macroscopic",
+    "rhs": " fHc + fHd + fq + fw"
+  },
+  "103": {
+    "lhs": "xo",
+    "network": "control",
+    "rhs": " Instantiate ( x , value )"
+  },
+  "104": {
+    "lhs": "e",
+    "network": "control",
+    "rhs": " mc - setpoint"
+  },
+  "106": {
+    "lhs": "dxdt",
+    "network": "control",
+    "rhs": " Ax | N | x + Bx | A | e"
+  },
+  "112": {
+    "lhs": "x",
+    "network": "control",
+    "rhs": " Integral ( I_N_D | D | dxdt :: t in [ to , te ] )"
+  },
+  "113": {
+    "lhs": "T",
+    "network": "physical",
+    "rhs": " Instantiate ( T , value )"
+  },
+  "114": {
+    "lhs": "chem_pot",
+    "network": "physical",
+    "rhs": " Instantiate ( chem_pot , value )"
+  },
+  "115": {
+    "lhs": "p",
+    "network": "physical",
+    "rhs": " Instantiate ( p , value )"
+  },
+  "116": {
+    "lhs": "n",
+    "network": "macroscopic",
+    "rhs": " Integral ( dndt :: t in [ to , te ] ) + no"
+  },
+  "117": {
+    "lhs": "T_ref",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( T , value )"
+  },
+  "120": {
+    "lhs": "cp",
+    "network": "material",
+    "rhs": " Cp . inv ( m )"
+  },
+  "121": {
+    "lhs": "cv",
+    "network": "material",
+    "rhs": " Cv . inv ( m )"
+  },
+  "122": {
+    "lhs": "H",
+    "network": "macroscopic",
+    "rhs": " m . Integral ( cp :: T in [ T_ref , T ] )"
+  },
+  "123": {
+    "lhs": "H",
+    "network": "macroscopic",
+    "rhs": " Integral ( dHdt :: t in [ to , te ] ) + Ho"
+  },
+  "124": {
+    "lhs": "no",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( n , value )"
+  },
+  "125": {
+    "lhs": "Ho",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( H , value )"
+  },
+  "126": {
+    "lhs": "intensities",
+    "network": "macroscopic",
+    "rhs": " MixedStack ( p , T , chem_pot , c )"
+  },
+  "127": {
+    "lhs": "c",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( c , value )"
+  },
+  "128": {
+    "lhs": "dHdt",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( dHdt , zero )"
+  },
+  "129": {
+    "lhs": "dndt",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( dndt , zero )"
+  },
+  "130": {
+    "lhs": "phi",
+    "network": "macroscopic",
+    "rhs": " MixedStack ( n , H )"
+  },
+  "131": {
+    "lhs": "kq_x",
+    "network": "material",
+    "rhs": " Instantiate ( kq_x , value )"
+  },
+  "132": {
+    "lhs": "kq_y",
+    "network": "material",
+    "rhs": " Instantiate ( kq_y , value )"
+  },
+  "133": {
+    "lhs": "kq_z",
+    "network": "material",
+    "rhs": " Instantiate ( kq_z , value )"
+  },
+  "134": {
+    "lhs": "kc_x",
+    "network": "material",
+    "rhs": " Instantiate ( kc_x , value )"
+  },
+  "135": {
+    "lhs": "kc_y",
+    "network": "material",
+    "rhs": " Instantiate ( kc_y , value )"
+  },
+  "136": {
+    "lhs": "kc_z",
+    "network": "material",
+    "rhs": " Instantiate ( kc_z . value  )"
+  },
+  "137": {
+    "lhs": "kd_x",
+    "network": "material",
+    "rhs": " Instantiate ( kd_x , value )"
+  },
+  "138": {
+    "lhs": "kd_y",
+    "network": "material",
+    "rhs": " Instantiate ( kd_y , value )"
+  },
+  "139": {
+    "lhs": "h",
+    "network": "material",
+    "rhs": " Instantiate ( h , value )"
+  },
+  "140": {
+    "lhs": "cp",
+    "network": "material",
+    "rhs": " Instantiate ( cp , value )"
+  },
+  "141": {
+    "lhs": "cv",
+    "network": "material",
+    "rhs": " Instantiate ( cv , value )"
+  },
+  "142": {
+    "lhs": "Mm",
+    "network": "material",
+    "rhs": " Instantiate ( Mm , value )"
+  },
+  "143": {
+    "lhs": "data",
+    "network": "material",
+    "rhs": " MixedStack ( kq , kc , kd , h , cp , cv , Mm , density )"
+  },
+  "144": {
+    "lhs": "Cx",
+    "network": "control",
+    "rhs": " Instantiate ( Cx , value )"
+  },
+  "145": {
+    "lhs": "Dx",
+    "network": "control",
+    "rhs": " Instantiate ( Dx , value )"
+  },
+  "146": {
+    "lhs": "setpoint",
+    "network": "control",
+    "rhs": " Instantiate ( setpoint , value )"
+  },
+  "147": {
+    "lhs": "D_A",
+    "network": "control",
+    "rhs": " Instantiate ( D_A , value )"
+  },
+  "148": {
+    "lhs": "Ax",
+    "network": "control",
+    "rhs": " Instantiate ( Ax , value )"
+  },
+  "149": {
+    "lhs": "Bx",
+    "network": "control",
+    "rhs": " Instantiate ( Bx , value )"
+  },
+  "150": {
+    "lhs": "y",
+    "network": "control",
+    "rhs": " Cx | N | x + D_A . e"
+  },
+  "153": {
+    "lhs": "y",
+    "network": "control",
+    "rhs": " D_A . e"
+  },
+  "154": {
+    "lhs": "density",
+    "network": "material",
+    "rhs": " Instantiate ( density , value )"
+  },
+  "155": {
+    "lhs": "u",
+    "network": "control",
+    "rhs": " one . y"
+  },
+  "161": {
+    "lhs": "cnorm",
+    "network": "macroscopic",
+    "rhs": " ones_NS | S in N & S | c"
+  },
+  "162": {
+    "lhs": "x_frac",
+    "network": "macroscopic",
+    "rhs": " inv ( cnorm ) : c"
+  },
+  "171": {
+    "lhs": "additiveFraction",
+    "network": "material",
+    "rhs": " Instantiate ( additiveFraction , value )"
+  },
+  "176": {
+    "lhs": "Ue",
+    "network": "physical",
+    "rhs": " inv ( Charge ) . U"
+  },
+  "177": {
+    "lhs": "current",
+    "network": "macroscopic",
+    "rhs": " TotalDiff ( Charge , t )"
+  },
+  "178": {
+    "lhs": "elResistance",
+    "network": "material",
+    "rhs": " inv ( current ) . Ue"
+  },
+  "179": {
+    "lhs": "elConducC",
+    "network": "material",
+    "rhs": " inv ( elResistance ) . additiveFraction"
+  },
+  "180": {
+    "lhs": "elResistance",
+    "network": "material",
+    "rhs": " Instantiate ( elResistance , value )"
+  },
+  "181": {
+    "lhs": "Ue",
+    "network": "macroscopic",
+    "rhs": " inv ( elConducC ) . current"
+  },
+  "182": {
+    "lhs": "dUedt",
+    "network": "macroscopic",
+    "rhs": " one_N . Ue"
+  },
+  "183": {
+    "lhs": "dUedt",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( dUedt , zero )"
+  },
+  "185": {
+    "lhs": "current",
+    "network": "macroscopic",
+    "rhs": " Root ( dUedt )"
+  },
+  "186": {
+    "lhs": "courrentA",
+    "network": "macroscopic",
+    "rhs": " one_A . current"
+  },
+  "187": {
+    "lhs": "elConduc",
+    "network": "material",
+    "rhs": " inv ( elResistance )"
+  },
+  "188": {
+    "lhs": "Ue",
+    "network": "macroscopic",
+    "rhs": " elResistance . current"
+  },
+  "189": {
+    "lhs": "current",
+    "network": "macroscopic",
+    "rhs": " Root ( Ue )"
+  },
+  "190": {
+    "lhs": "measuredCurrent",
+    "network": "control",
+    "rhs": " current"
+  },
+  "191": {
+    "lhs": "measuredPotentialDiff",
+    "network": "control",
+    "rhs": " Ue"
+  },
+  "192": {
+    "lhs": "measuredAdditive",
+    "network": "control",
+    "rhs": " additiveFraction"
+  },
+  "193": {
+    "lhs": "compResistance",
+    "network": "control",
+    "rhs": " inv ( measuredCurrent ) . measuredPotentialDiff"
+  },
+  "194": {
+    "lhs": "store",
+    "network": "control",
+    "rhs": " MixedStack ( measuredCurrent , measuredPotentialDiff , compResistance , measuredAdditive )"
+  },
+  "195": {
+    "lhs": "Ue",
+    "network": "macroscopic",
+    "rhs": " Instantiate ( Ue , value )"
+  }
+}
