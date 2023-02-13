@@ -6,16 +6,16 @@
       "named_network": "A-liquid",
       "class": "node_simple",
       "type": "constant|infinity",
-      "variant": "Source&Sink",
+      "variant": "Reservoir",
       "tokens": {
         "mass": [
-          "E",
-          "F"
+          "A",
+          "B"
         ]
       },
       "injected_typed_tokens": {
         "mass": [
-          "E"
+          "A"
         ]
       },
       "mass": []
@@ -26,16 +26,16 @@
       "named_network": "A-liquid",
       "class": "node_simple",
       "type": "constant|infinity",
-      "variant": "Source&Sink",
+      "variant": "Reservoir",
       "tokens": {
         "mass": [
-          "E",
-          "F"
+          "A",
+          "B"
         ]
       },
       "injected_typed_tokens": {
         "mass": [
-          "F"
+          "B"
         ]
       },
       "mass": []
@@ -46,27 +46,27 @@
       "named_network": "A-liquid",
       "class": "node_simple",
       "type": "constant|infinity",
-      "variant": "Source&Sink",
+      "variant": "Reservoir",
       "tokens": {
         "mass": [
-          "E",
-          "F"
+          "A",
+          "B"
         ]
       },
       "injected_typed_tokens": {},
       "mass": []
     },
     "4": {
-      "name": "4 - T",
+      "name": "Mixer",
       "network": "liquid",
       "named_network": "A-liquid",
       "class": "node_simple",
       "type": "dynamic|lumped",
-      "variant": "SimpleMixer",
+      "variant": "Dynamic_Node",
       "tokens": {
         "mass": [
-          "E",
-          "F"
+          "A",
+          "B"
         ]
       },
       "conversions": {},
@@ -81,14 +81,14 @@
       "sink": 4,
       "token": "mass",
       "typed_tokens": [
-        "E",
-        "F"
+        "A",
+        "B"
       ],
       "network": "liquid",
       "named_network": "A-liquid",
       "mechanism": "convection",
       "nature": "lumped",
-      "variant": "default"
+      "variant": "Connection_Convection"
     },
     "1": {
       "name": "2 | 4",
@@ -96,14 +96,14 @@
       "sink": 4,
       "token": "mass",
       "typed_tokens": [
-        "E",
-        "F"
+        "A",
+        "B"
       ],
       "network": "liquid",
       "named_network": "A-liquid",
       "mechanism": "convection",
       "nature": "lumped",
-      "variant": "default"
+      "variant": "Connection_Convection"
     },
     "2": {
       "name": "4 | 3",
@@ -111,14 +111,14 @@
       "sink": 3,
       "token": "mass",
       "typed_tokens": [
-        "E",
-        "F"
+        "A",
+        "B"
       ],
       "network": "liquid",
       "named_network": "A-liquid",
       "mechanism": "convection",
       "nature": "lumped",
-      "variant": "default"
+      "variant": "Connection_Convection"
     }
   },
   "named_networks": {
@@ -285,13 +285,24 @@
   "typed_token_lists": {
     "mass": {
       "0": [
-        "E",
-        "F"
+        "A",
+        "B"
       ]
     }
   },
   "instantiation_info": {
-    "nodes": {},
-    "arcs": {}
+    "nodes": {
+      "1": {
+        "V_x": "45" 
+      },
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    "arcs": {
+      "0": {},
+      "1": {},
+      "2": {}
+    }
   }
 }
