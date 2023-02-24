@@ -75,7 +75,7 @@
     "variable_ID": 13,
     "lhs": "fnd_AS",
     "network": "macroscopic",
-    "rhs": "D_AS*(Dd_NS_AS*c)"
+    "rhs": "D_AS.*(Dd_NS_AS' * c)"
   },
   "E_14": {
     "variable_ID": 14,
@@ -105,7 +105,7 @@
     "variable_ID": 18,
     "lhs": "fV",
     "network": "macroscopic",
-    "rhs": "cv_A * (D * p)"
+    "rhs": "cv_A .* (Dc * p)"
   },
   "E_19": {
     "variable_ID": 19,
@@ -177,7 +177,7 @@
     "variable_ID": 30,
     "lhs": " V_30",
     "network": "macroscopic",
-    "rhs": " F*(kf_A*l_A)"
+    "rhs": " F*(kf_A.*l_A)"
   },
   "E_31": {
     "variable_ID": 31,
