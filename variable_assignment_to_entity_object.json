@@ -1,5 +1,6 @@
 {
   "macroscopic.node.constant|infinity|mass.Reservoir": {
+    "index_set": "N_const",
     "integrators": {},
     "var_eq_forest": [],
     "to_be_init" :["V_26","V_21", "V_24"],
@@ -7,6 +8,7 @@
     "output_vars": ["V_26","V_21", "V_24"]
   },
   "macroscopic.node.dynamic|lumped|mass.Dynamic_Node": {
+    "index_set": "N_dyn",
     "integrators": {"V_1": "E_1"},
     "var_eq_forest": [
         {
@@ -68,6 +70,7 @@
     "output_vars": ["V_21", "V_26", "V_24"]
   },
   "macroscopic.arc.convection|lumped|mass.Connection_Convection": {
+    "index_set": "A_conv",
     "integrators": {},
     "var_eq_forest": [
         {
@@ -109,6 +112,7 @@
     "output_vars": ["V_12", "V_14", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
   "macroscopic.arc.diffusion|lumped|massConnection_Diffusion": {
+    "index_set": "A_diff",
     "integrators": {},
     "var_eq_forest": [
         {
@@ -145,6 +149,7 @@
     "output_vars": ["V_13", "V_15", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
   "Connection_Heat": {
+    "index_set": "A_heat",
     "integrators": {},
     "var_eq_forest": [
         {
