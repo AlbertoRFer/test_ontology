@@ -39,7 +39,7 @@
     "variable_ID": 7,
     "lhs": "pn(N)",
     "network": "macroscopic",
-    "rhs": "khatriRao(V(N), \"N\", (N_NS_NK * xi), \"NS\")"
+    "rhs": "khatriRao(V(N), \"N\", (N_NS_NK * xi), \"N_x_S\")"
   },
   "E_8": {
     "variable_ID": 8,
@@ -69,7 +69,7 @@
     "variable_ID": 12,
     "lhs": "fnc_AS",
     "network": "macroscopic",
-    "rhs": "khatriRao(fV(A), {\"A\"}, c_AS(A), {\"AS\"})"
+    "rhs": "khatriRao(fV(A), {\"A\"}, c_AS(A), {\"A_x_S\"})"
   },
   "E_13": {
     "variable_ID": 13,
@@ -111,7 +111,7 @@
     "variable_ID": 19,
     "lhs": "c_AS",
     "network": "macroscopic",
-    "rhs": "( (onehalf .* (Dc_NS_AS(N,A) - khatriRao(d(A), {\"A\"}, abs(Dc_NS_AS(N,A)), {\"NS\", \"AS\"}))) ) * c(N)"
+    "rhs": "( (onehalf .* (Dc_NS_AS(N,A) - khatriRao(d(A), {\"A\"}, abs(Dc_NS_AS(N,A)), {\"N_x_S\", \"A_x_S\"}))) ) * c(N)"
   },
   "E_20": {
     "variable_ID": 20,
@@ -123,19 +123,19 @@
     "variable_ID": 21,
     "lhs": "c",
     "network": "macroscopic",
-    "rhs": "khatrirao(reciprocal(V(N)), {\"N\"}, n(N), {\"NS\"})"
+    "rhs": "khatrirao(reciprocal(V(N)), {\"N\"}, n(N), {\"N_x_S\"})"
   },
   "E_22": {
     "variable_ID": 22,
-    "lhs": "density",
+    "lhs": "density(N)",
     "network": "material",
-    "rhs": "m .* inv(V)"
+    "rhs": "m(N) .* reciprocal(V(N))"
   },
   "E_23": {
     "variable_ID": 23,
     "lhs": "m",
     "network": "macroscopic",
-    "rhs": "blockReduce(Mm, \"S\", \"NS\", n(N)"
+    "rhs": "blockReduce(Mm, \"S\", \"N_x_S\", n(N)"
   },
   "E_24": {
     "variable_ID": 24,
