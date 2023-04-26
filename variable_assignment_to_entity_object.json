@@ -111,7 +111,7 @@
     "input_vars": ["V_26", "V_66", "V_67", "V_21", "V_77"],
     "output_vars": ["V_12", "V_14", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
-  "macroscopic.arc.diffusion|lumped|massConnection_Diffusion": {
+  "macroscopic.arc.diffusion|lumped|mass.Connection_Diffusion": {
     "index_set": "A_diff",
     "integrators": {},
     "var_eq_forest": [
@@ -148,7 +148,7 @@
     "input_vars": ["V_21", "V_69", "V_77"],
     "output_vars": ["V_13", "V_15", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
-  "Connection_Heat": {
+  "macroscopic.arc.conduction|lumped|Energy.Connection_Heat": {
     "index_set": "A_heat",
     "integrators": {},
     "var_eq_forest": [

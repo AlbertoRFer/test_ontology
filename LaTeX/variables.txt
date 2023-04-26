@@ -1,0 +1,72 @@
+$n_{NS}$
+$H_N$
+$\dot{n}_{NS}$
+$\dot{H}_N$
+$\dot{n}^{c}_{NS}$
+$\dot{n}^{d}_{NS}$
+$\tilde{n}_{NS}$
+$\dot{H}^c_N$
+$\dot{H}^d_N$
+$\dot{H}^q_N$
+$\dot{H}^w_N$
+$\hat{n}^{c}_{AS}$
+$\hat{n}^{d}_{AS}$
+$\hat{H}^c_A$
+$\hat{H}^d_A$
+$\hat{H}^q_A$
+$\hat{H}^w_A$
+$\hat{V}_{A}$
+$c_{AS}$
+$d_A$
+$c_{NS}$
+$V_N$
+$m_N$
+$T_N$
+$c_{pN}$
+$p_N$
+$\dot{E}^{v}_N$
+$\dot{E}^{p}_N$
+$\dot{E}^{k}_N$
+$\dot{E}^{f}_N$
+$\hat{E}^{v}_{A}$
+$\hat{E}^{p}_{A}$
+$\hat{E}^{k}_{A}$
+$\hat{m}_A$
+$v_A$
+$\xi_{NK}$
+$\Phi_{KS}$
+$c_{KS}$
+$t_o$
+$t_e$
+$n^{o}_{NS}$
+$H^o_N$
+$D_{AS}$
+$h_S$
+$k^q_A$
+$w^e_A$
+$cv_A$
+$\rho_N$
+$\lambda_S$
+$T_{ref}$
+$k^{f}_A$
+$l_A$
+$g$
+$h_A$
+$\rho_A$
+$A_A$
+$K_{NK}$
+$c^{o}_{KS}$
+$\dot{E}_N$
+$F^{c}_{N, A}$
+$F^{c}_{NS,AS}$
+$F^{d}_{N, A}$
+$F^{d}_{NS,AS}$
+$F^{q}_{N, A}$
+$F^{w}_{N, A}$
+$D^{c}_{N, A}$
+$D^{c}_{NS, AS}$
+$D^{q}_{N, A}$
+$D^{d}_{NS, AS}$
+$N_{NS, NK}$
+$P_{NK, KS}$
+$P_{NS, KS}$
