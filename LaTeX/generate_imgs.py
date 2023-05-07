@@ -32,6 +32,7 @@ with open("equations.txt", "r") as f:
         key = "E_" + str(i+1)
         value = line.strip()
         variable_dict[key] = value
-        
+
+variable_dict["no_eq"] = "No equation"        
 for output, code in variable_dict.items():
     latex2image(code, output)

@@ -1,5 +1,5 @@
 {
-  "macroscopic.node.constant|infinity|mass.Reservoir": {
+  "macroscopic.node.mass|constant|infinity.Reservoir": {
     "index_set": "N_const",
     "integrators": {},
     "var_eq_forest": [],
@@ -7,7 +7,7 @@
     "input_vars": [],
     "output_vars": ["V_26","V_21", "V_24"]
   },
-  "macroscopic.node.dynamic|lumped|mass.Dynamic_Node": {
+  "macroscopic.node.mass|dynamic|lumped.Dynamic_Node": {
     "index_set": "N_dyn",
     "integrators": {"V_1": "E_1"},
     "var_eq_forest": [
@@ -64,12 +64,12 @@
             "V_25": ["E_25"]
         }
     ],
-    "to_be_init": ["V_39", "V_40", "V_41", "V_48", "V_57", "V_49", "V_58", "V_42", "V_50"],    
+    "to_be_init": ["V_39", "V_40", "V_41", "V_48", "V_57", "V_49", "V_58"],    
     "input_vars": ["V_61", "V_63", "V_70", "V_12", "V_13", "V_71", "V_72", "V_60", "V_14", "V_62", "V_15", "V_64", "V_16", "V_65", 
                    "V_17", "V_76", "V_31", "V_32", "V_33", "V_51", "V_52"],
     "output_vars": ["V_21", "V_26", "V_24"]
   },
-  "macroscopic.arc.convection|lumped|mass.Connection_Convection": {
+  "macroscopic.arc.mass|convection|lumped.Connection_Convection": {
     "index_set": "A_conv",
     "integrators": {},
     "var_eq_forest": [
@@ -111,7 +111,7 @@
     "input_vars": ["V_26", "V_66", "V_67", "V_21", "V_77"],
     "output_vars": ["V_12", "V_14", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
-  "macroscopic.arc.diffusion|lumped|mass.Connection_Diffusion": {
+  "macroscopic.arc.mass|diffusion|lumped.Connection_Diffusion": {
     "index_set": "A_diff",
     "integrators": {},
     "var_eq_forest": [
@@ -148,7 +148,7 @@
     "input_vars": ["V_21", "V_69", "V_77"],
     "output_vars": ["V_13", "V_15", "V_17", "V_31", "V_32", "V_33", "V_51", "V_52"]
   },
-  "macroscopic.arc.conduction|lumped|Energy.Connection_Heat": {
+  "macroscopic.arc.energy|conduction|lumped.Connection_Heat": {
     "index_set": "A_heat",
     "integrators": {},
     "var_eq_forest": [

@@ -712,7 +712,7 @@
     "V_60": {
       "aliases": {"global_ID": " V_60", "python": "Fc", "cpp": "Fc", "matlab": "Fc", "latex": "F^{c}_{N,A}", "internal_code": "Fc"},
       "doc": "",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "F",
       "network": "root",
@@ -736,7 +736,7 @@
     "V_62": {
       "aliases": {"global_ID": " V_62", "python": "Fd", "cpp": "Fd", "matlab": "Fd", "latex": "F^{d}_{N,A}", "internal_code": "Fd"},
       "doc": "",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "F",
       "network": "root",
@@ -760,7 +760,7 @@
     "V_64": {
       "aliases": {"global_ID": " V_64", "python": "Fq", "cpp": "Fq", "matlab": "Fq", "latex": "F^{q}_{N,A}", "internal_code": "Fq"},
       "doc": "",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "F",
       "network": "root",
@@ -772,7 +772,7 @@
     "V_65": {
       "aliases": {"global_ID": " V_65", "python": "Fw", "cpp": "Fw", "matlab": "Fw", "latex": "F^{w}_{N,A}", "internal_code": "Fw"},
       "doc": "",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "F",
       "network": "root",
@@ -784,7 +784,7 @@
     "V_66": {
       "aliases": {"global_ID": " V_66", "python": "Dc", "cpp": "Dc", "matlab": "Dc", "latex": "D^{c}_{N, A}", "internal_code": "Dc"},
       "doc": "difference operator",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "D",
       "network": "macroscopic",
@@ -796,7 +796,7 @@
     "V_67": {
       "aliases": {"global_ID": " V_128", "python": "Dc_NS_AS", "cpp": "Dc_NS_AS", "matlab": "Dc_NS_AS", "latex": "D^{c}_{NS, AS}", "internal_code": "Dc_NS_AS"},
       "doc": "block difference operator",
-      "equations": {},
+      "equations": [],
       "index_structures": [5, 6],
       "label": "D_NS_AS",
       "network": "macroscopic",
@@ -808,7 +808,7 @@
     "V_68": {
       "aliases": {"global_ID": " V_68", "python": "Dq", "cpp": "Dq", "matlab": "Dq", "latex": "D^{q}_{N, A}", "internal_code": "Dq"},
       "doc": "difference operator",
-      "equations": {},
+      "equations": [],
       "index_structures": [1, 2],
       "label": "D",
       "network": "macroscopic",
@@ -820,7 +820,7 @@
     "V_69": {
       "aliases": {"global_ID": " V_69", "python": "Dd_NS_AS", "cpp": "Dd_NS_AS", "matlab": "Dd_NS_AS", "latex": "D^{d}_{NS, AS}", "internal_code": "Dd_NS_AS"},
       "doc": "block difference operator",
-      "equations": {},
+      "equations": [],
       "index_structures": [5, 6],
       "label": "D_NS_AS",
       "network": "macroscopic",
@@ -856,7 +856,7 @@
     "V_72": {
       "aliases": {"global_ID": " V_72", "python": "P_NS_KS", "cpp": "P_NS_KS", "matlab": "P_NS_KS", "latex": "P", "internal_code": "P_NS_KS"},
       "doc": "projection node x species to conversion x species",
-      "equations": {},
+      "equations": [],
       "index_structures": [5, 8],
       "label": "P_NS_KS",
       "network": "macroscopic",
@@ -880,7 +880,7 @@
     "V_74": {
       "aliases": {"global_ID": " V_74", "python": "N", "cpp": "N", "matlab": "N", "latex": "N", "internal_code": "N"},
       "doc": "stoichiometric matrix",
-      "equations": {},
+      "equations": [],
       "index_structures": [3, 4],
       "label": "N",
       "network": "reactions",
