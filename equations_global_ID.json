@@ -219,7 +219,7 @@
     "variable_ID": 37,
     "lhs": " V_37",
     "network": "reactions",
-    "rhs": " O_10 D_0 V_38 O_4 F_15 D_0 V_58 D_1 D_7 V_74 D_1"
+    "rhs": " O_10 D_0 V_38 O_4 F_15 D_0 V_58 D_1"
   },
   "E_38": {
     "variable_ID": 38,

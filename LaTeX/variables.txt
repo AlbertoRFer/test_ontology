@@ -70,3 +70,8 @@ $D^{d}_{NS, AS}$
 $N_{NS, NK}$
 $P_{NK, KS}$
 $P_{NS, KS}$
+$frac{1}{2}$
+$N$
+$t$
+$F_{N, A}$
+$P_{N, A}$
