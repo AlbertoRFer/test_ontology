@@ -256,7 +256,7 @@
     "V_22": {
       "aliases": {"global_ID": " V_22", "python": "V", "cpp": "V", "matlab": "V", "latex": "V", "internal_code": "V"},
       "doc": "foundation state -- volume",
-      "equations": [],
+      "equations": ["E_22"],
       "index_structures": [1],
       "label": "V",
       "network": "physical",
@@ -280,7 +280,7 @@
     "V_24": {
       "aliases": {"global_ID": "V_24", "python": "T", "cpp": "T", "matlab": "T", "latex": "T", "internal_code": "T"},
       "doc": "temperature",
-      "equations": [],
+      "equations": ["E_24"],
       "index_structures": [1],
       "label": "T",
       "network": "physical",
