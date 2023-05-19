@@ -442,7 +442,7 @@
       "network": "reactions",
       "port_variable": "False",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_38": {
@@ -454,7 +454,7 @@
       "network": "reactions",
       "port_variable": "False",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [0, -3, 1, 0, 0, 0, 0, 0]
     },
     "V_39": {
@@ -490,7 +490,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [0, 0, 1, 0, 0, 0, 0, 0]
     },
     "V_42": {
@@ -502,7 +502,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [-2, 2, 0, 1, 0, 0, 0, 0]
     },
     "V_43": {
@@ -586,7 +586,7 @@
       "network": "material",
       "port_variable": "True",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [0, 0, -1, 1, 0, 0, 0, 0]
     },
     "V_50": {
@@ -598,7 +598,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "constant",
+      "type": "",
       "units": [0, 0, 0, 0, 1, 0, 0, 0]
     },
     "V_51": {
@@ -634,7 +634,7 @@
       "network": "physical",
       "port_variable": "True",
       "tokens": [],
-      "type": "state",
+      "type": "constant",
       "units": [0, 3, 0, 0, 0, 0, 0, 0]
     },
     "V_54": {
@@ -718,7 +718,7 @@
       "network": "root",
       "port_variable": "True",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_61": {
@@ -730,7 +730,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_62": {
@@ -742,7 +742,7 @@
       "network": "root",
       "port_variable": "True",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_63": {
@@ -754,7 +754,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_64": {
@@ -766,7 +766,7 @@
       "network": "root",
       "port_variable": "True",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_65": {
@@ -778,7 +778,7 @@
       "network": "root",
       "port_variable": "True",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_66": {
@@ -790,7 +790,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "differenceOperator",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_67": {
@@ -802,7 +802,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "differenceOperator",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_68": {
@@ -814,7 +814,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "differenceOperator",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_69": {
@@ -826,7 +826,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "differenceOperator",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_70": {
@@ -838,7 +838,7 @@
       "network": "macroscopic",
       "port_variable": "False",
       "tokens": [],
-      "type": "conversion",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_71": {
@@ -850,7 +850,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "projection",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_72": {
@@ -862,7 +862,7 @@
       "network": "macroscopic",
       "port_variable": "True",
       "tokens": [],
-      "type": "projection",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_73": {
@@ -886,7 +886,7 @@
       "network": "reactions",
       "port_variable": "True",
       "tokens": [],
-      "type": "constant",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_75": {
@@ -910,7 +910,7 @@
       "network": "root",
       "port_variable": "True",
       "tokens": [],
-      "type": "network",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     },
     "V_77": {
@@ -922,7 +922,7 @@
       "network": "physical",
       "port_variable": "True",
       "tokens": [],
-      "type": "projection",
+      "type": "topology",
       "units": [0, 0, 0, 0, 0, 0, 0, 0]
     }    
   },
